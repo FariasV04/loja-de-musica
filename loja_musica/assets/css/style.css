@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+main{
+    width: 70%;
+    background-color: rgb(186, 71, 71);
+    height: 2700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    position: relative;
+    width: auto;
+    height: 400px;
+    background-color: lime;
+    padding: 15px;
+    background-image: url(../images/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+nav{
+    background-color: white;
+    width: 45%;
+    height: 55px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+
+#vermelho{
+    width: auto;
+    height: 480px;
+    background-color: rgb(170, 21, 21);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redblock{
+    width: 45%;
+    height: 390px;
+    background-color: rgb(194, 87, 87);
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#redblock_img{
+    background-image: url(../images/loja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redblock h1{
+    color: white;
+    font-size: 30px;
+}
+
+.redblock p{
+    color: white;
+    font-size: 20px;
+}
+
+#azul{
+    width: auto;
+    height: 600px;
+    background-color: rgb(207, 223, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whiteblock{
+    background-color: white;
+    width: 18%;
+    height: 530px;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: column;
+    
+}
+
+.whiteblock h2{
+    font-size: 25px;
+}
+
+.whiteblock p{
+    color: red;
+}
+
+
+.guitar img{
+    width: 100%;
+    height: 200px;
+}
+
+#laranja{
+    width: auto;
+    height: 500px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.orange_block{
+    width: 40%;
+    height: 440px;
+    background-color: rgb(179, 103, 103);
+    margin-right: 100px;
+    border-radius: 2%;
+    
+}
+
+#block2 {
+    color: white;
+    padding: 15px;
+}
+
+h4{
+    margin-bottom: 100px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+#contato{
+    width: 98%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#formulario{
+    width: 40%;
+    height: 250px;
+    background-color:white;
+}
+
+
+#azulclaro{
+    width: 40%;
+    height: 240px;
+    background-color: rgb(35, 168, 172);
+    padding: 25px;
+}
+
+#pedido{
+    height: 180px;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h5{
+    color: rgb(63, 30, 122);
+    font-size: 35px;
+}
+
+#redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#redes img{
+    width: 140px;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: cent;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+footer h6{
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer img{
+    width: 40px;
+    margin-left: 15px;
+}
